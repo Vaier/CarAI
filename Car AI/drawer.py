@@ -35,14 +35,14 @@ class Drawer:
                 self.draw_car(car)
         
         # Текст на экране
-        text = self.generation_font.render("Generation: " + str(current_generation), True, (0,0,0))
+        text = self.generation_font.render("Поколение: " + str(current_generation), True, (0,0,0))
         text_rect = text.get_rect()
-        text_rect.center = (900, 450)
+        text_rect.center = (150, 80)
         self.screen.blit(text, text_rect)
 
-        text = self.alive_font.render("Still Alive: " + str(still_alive), True, (0, 0, 0))
+        text = self.alive_font.render("Кол-во машин: " + str(still_alive), True, (0, 0, 0))
         text_rect = text.get_rect()
-        text_rect.center = (900, 490)
+        text_rect.center = (150, 120)
         self.screen.blit(text, text_rect)
 
         pygame.display.flip()

@@ -59,4 +59,5 @@ Escape: Остановка симуляции
     + https://en.wikipedia.org/wiki/Neuroevolution_of_augmenting_topologies - Описание алгоритма NEAT
     + https://en.wikipedia.org/wiki/Reinforcement_learning - Описание обучения с подкреплением
     + https://neat-python.readthedocs.io/en/latest/index.html - Информация по модулю neat-python
-    + https://neat-python.readthedocs.io/en/latest/config_file.html - Информация по параметрам в файле config.txt 
+    + https://neat-python.readthedocs.io/en/latest/config_file.html - Информация по параметрам в файле config.txt
+    + https://www.youtube.com/watch?v=qc8_nKfcKiE - Демонстрация работы

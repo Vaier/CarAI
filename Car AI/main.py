@@ -4,7 +4,7 @@ import neat
 if __name__ == "__main__":
     
     # Подгрузка config файла для neat
-    config_path = "./config.txt"
+    config_path = "./config.ini"
     config = neat.config.Config(neat.DefaultGenome,
                                 neat.DefaultReproduction,
                                 neat.DefaultSpeciesSet,
